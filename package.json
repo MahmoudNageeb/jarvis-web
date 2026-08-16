@@ -2,13 +2,15 @@
   "name": "jarvis-web",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://mahmoudnageeb.github.io/jarvis-web",
   "scripts": {
     "dev": "next dev -p 3100",
     "build": "next build",
-    "start": "next start -p 3100"
+    "start": "next start -p 3100",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "next": "^14.2.33",
+    "next": "14.2.33",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -16,6 +18,7 @@
     "@types/node": "20.14.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "gh-pages": "6.1.1",
     "typescript": "5.5.3"
   }
 }
